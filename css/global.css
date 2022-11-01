@@ -2,7 +2,7 @@
 ::selection { /* Optional */
   text-shadow: none;
   color: #fff;
-  background-color: #555;
+  background-image:url("./img/background.jpg");
 }
 
 html {
