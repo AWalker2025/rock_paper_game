@@ -35,8 +35,18 @@ function game(x){
     else if (sessionStorage.mychoice == sessionStorage.opponentChoice) {
         sessionStorage.result = "tie"
     }
-    
-
+    //Creates Notification
+    if (sessionStorage.result == "tie") {
+        document.getElementById ("result").innerHTML = "It's A Tie!";
+    }
+    else if (sessionStorage.result == "win") {
+        document.getElementById ("result").innerHTML = "You Won!";
+    }
+    else if (sessionStorage.result == "lose") {
+        document.getElementById ("result").innerHTML = "You Lose!";
+    }
+//Shows Opponets Img
+document.getElementById
 
 
 
